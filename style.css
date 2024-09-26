@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+    /* background-color: #f5f5f5; */
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0 1vw;
+    padding-top: 20vh;
+    background-color: aqua;
+
+}
+
+#page1 h1{
+    font-size: 15.8vw;
+    text-transform: uppercase;
+    font-family: futura;
+    line-height: 14vw;
+    letter-spacing: -8px;
+}
+
+#video-container{
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+    margin-top: 1vw;
+}
