@@ -15,57 +15,58 @@ html, body{
     /* background-color: #f5f5f5; */
 }
 
-#nav{
+#nav {
     /* height: 100px; */
     width: 100%;
     /* background-color: burlywood; */
     position: fixed;
     z-index: 99;
-    padding: 25px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    padding: 25px;
 }
 
-#nav-part1{
-   height: 82px;
-    /* background-color: aqua; */
-    overflow: hidden;
-}
-
-#nav-part1 svg{
-    display: block;
-}
-
-
-#links{
-    padding: 10px;
-}
-
-#nav #nav-part2{
+#nav #nav-part2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 40px;
+}
+
+#links {
+    padding: 10px;
+}
+
+#nav-part1 {
+    /* background-color: RED; */
+    height: 82px;
+    overflow: hidden;
+}
+
+#nav-part1 svg {
+    display: block;
 }
 
 #nav-part2 #links a {
-    text-decoration: none;
     text-transform: uppercase;
+
+    text-decoration: none;
     color: #333;
-    font-weight: 400;
-    margin:0 2.5vw;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 20px;
 }
 
-#icons{
+#icons {
     padding: 10px;
     border-radius: 50px;
-    background-color: #F7F7F7F7;
+    background-color: #F7F7F7;
 }
 
-#nav-part2 #icons i{
+#nav-part2 #icons i {
     font-size: 18px;
-    margin: 0 1.5vw;
+    margin: 0 20px;
     font-weight: 100;
 }
 
@@ -268,6 +269,66 @@ body{
         border-radius: 50px;
     }
     
+    
+
+    #page3 {
+        min-height: 120vh;
+        width: 100%;
+        /* background-color:#F7F7F7F7; */
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .child{
+        height: 54vh;
+        width: 88vw;
+        /* background-color: red; */
+        /* border: 2px solid black; */
+        padding: 15vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nav{
+        /* height: 100px; */
+        width: 100%;
+        /* background-color: burlywood; */
+        position: fixed;
+        z-index: 99;
+        padding: 25px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    #nav-part1{
+       height: 67px;
+        /* background-color: aqua; */
+        overflow: hidden;
+    }
+    
+    #nav-part1 svg{
+        display: block;
+        height: 67px;
+        width: 80px;
+    }
+    
+    #nav #twogoodlogo{
+        height: 40px;
+        margin-left: -5vw;
+       
+               
+    }
+    
+    #links{
+        padding: 10px;
+        display: none;
+    }
         
 }
 
